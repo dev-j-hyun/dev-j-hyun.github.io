@@ -1,0 +1,24 @@
+<!-- title + desc + id (image-path | alt | title | desc) -->
+
+{% if include.id %}
+  {% assign list = page.[include.id] %}
+{% else %}
+  {% assign list = page.detail %}
+{% endif %}
+
+<div>
+    <h3 id="{{ include.title }}" class="bg-info text-light">{{ include.title }}</h3>
+    {% if include.desc %}
+        <p class="text-secondary">{{ include.desc }}</p>
+    {% endif %}
+    <div class="row">
+        {% for node in list %}
+        <div class="col-6 col-md-4">
+            <a href="{{ node.image-path }}"><img class="img-fluid d-block mx-auto" src="{{ page.asset-base }}{{ node.image-path }}" alt="{{ node.alt }}" title="{{ node.alt }}"/></a>
+            {% if node.desc %}
+                <p class="text-muted font-monospace" style="transform: translateY(-100%);">{{ node.desc }}</p>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>

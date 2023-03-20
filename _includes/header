@@ -1,0 +1,24 @@
+<!--Title-->
+<h2 class="text-uppercase">{{ project.title }}</h2>
+<hr/>
+
+<!--Tools-->
+<div class="text-info"> {{ project.tools }} </div>
+
+<!--Role-->
+<div class="item-intro text-muted">{{ project.role }}</div>
+
+<!--Link-->
+<div class="text-info"> Title Link: <a href="#{{ project.title }}.overview">#Overview</a> | <a href="#{{ project.title }}.detail">#Detail</a> </div>
+  
+<!--Video-->
+<!--
+<div class="embed-responsive embed-responsive-4by3">
+<iframe width="{{ project.video-width }}" height="{{ project.video-height }}" src="{{ project.video }}" alt="{{ project.alt }}" title="{{ project.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+-->
+
+<!--Main Image-->
+<!--
+<img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}"/>
+-->

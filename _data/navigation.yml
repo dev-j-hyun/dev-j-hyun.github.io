@@ -1,0 +1,18 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
+
+nav:
+  - title: "Home"
+    section: home
+  - title: "Portfolio"
+    section: portfolio
+  - title: "About"
+    section: team
+#  - title: "Theme Source"
+#    url: https://github.com/raviriley/agency-jekyll-theme/

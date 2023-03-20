@@ -1,0 +1,13 @@
+<div>
+    <h1 class="bg-dark text-white">Overview</h1>
+    <div class="embed-responsive embed-responsive-4by3" >
+        <iframe src="{{ project.video.url }}" alt="{{ project.alt }}" title="{{ project.video.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    
+    <dl>
+        {% for node in project.video.detail %}
+        <dt>{{ node.title }}</dt>
+        <dd>{{ node.desc }}</dd>
+        {% endfor %}
+    </dl>
+</div>

@@ -1,0 +1,39 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+header:
+  title: Hello, I am
+  text: JINA HYUN
+  button: View Projects
+  buttonlink: "#portfolio"
+
+portfolio:
+  title: "Portfolio"
+  text: "Academic Projects"
+  section: portfolio
+  closebutton: "Close Project"
+
+team:
+  title: "About Me"
+  text: "I am intereseted in computer graphics, tools, and animation!"
+  subtext: (Expected Graduation 04/2023) <br> *BS in Computer Science in Real-Time Interactive Simulation* <br> DigiPen Insititute of Technology
+  section: team
+  people:
+    - name: "Jina Hyun"
+      role: "Software Engineer"
+      image: assets/profile/profile.png
+      social: #Find icons: https://fontawesome.com/v4/icons/
+        - url: "mailto: dev.j.hyun@gmail.com"
+          icon: fa fa-envelope
+        - url: linkedin.com/in/jina-hyun
+          icon: fab fa-linkedin-in
+        - url: "https://www.youtube.com/channel/UCzPsPE4UhHOf97gppGSG3-g"
+          icon: fa fa-play
