@@ -1,2 +1,12 @@
+# Jekyll folders
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
 
+.bundle/
+vendor/
+
+_site/
+
+Gemfile.lock
 *.mp4
