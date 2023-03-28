@@ -8,6 +8,6 @@ vendor/
 
 _site/
 
-Gemfile.lock
+#Gemfile.lock
 *.mp4
 .vscode/
