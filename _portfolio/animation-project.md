@@ -5,6 +5,7 @@ image: assets/image-sample.png
 alt: Animation Project
 tools: C++ | OpenGL | GLSL
 asset-base: /assets/programming/animation/
+tags: graphics
 
 caption:
   title: Animation Project
@@ -49,4 +50,4 @@ detail:
 
 <hr/>
 
-{% include gallery title="Detail" id="detail" desc="There are 4 scenes in this project." %}
+{% include custom/gallery title="Detail" id="detail" desc="There are 4 scenes in this project." %}

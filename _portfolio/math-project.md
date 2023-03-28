@@ -5,6 +5,7 @@ image: assets/image-sample.png
 alt: Math Project
 tools: C++ & JUCE | Python & Jupyter Notebook
 asset-base: /assets/programming/math/
+tags: math
 
 caption:
   title: Math Project
@@ -89,5 +90,5 @@ images_kmeans:
 ---
 <hr/>
 
-{% include gallery title="Curve" id="images_juce" desc="This project uses <i>JUCE</i>" %}
-{% include gallery title="K-Means Clustering" id="images_kmeans" desc="This project uses <i>Python</i>" %}
+{% include custom/gallery title="Curve" id="images_juce" desc="This project uses <i>JUCE</i>" %}
+{% include custom/gallery title="K-Means Clustering" id="images_kmeans" desc="This project uses <i>Python</i>" %}

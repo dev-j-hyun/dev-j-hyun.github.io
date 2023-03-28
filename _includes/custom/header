@@ -8,6 +8,13 @@
 <!--Role-->
 <div class="item-intro text-muted">{{ project.role }}</div>
 
+<!--Tag-->
+<div>
+{% for tag in project.tags %}
+    <button type="button" class="btn btn-sm btn-info">#{{ tag }}</button>
+{% endfor %}
+</div>
+
 <!--Link-->
 <div class="text-info"> Title Link: <a href="#{{ project.title }}.overview">#Overview</a> | <a href="#{{ project.title }}.detail">#Detail</a> </div>
   

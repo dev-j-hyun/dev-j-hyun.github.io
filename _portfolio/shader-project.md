@@ -5,6 +5,7 @@ image: assets/image-sample.png
 alt: Shader Project
 tools: C++ | OpenGL | GLSL | RapidJSON
 asset-base: /assets/programming/tessellation/
+tags: graphics personal-project
 
 caption:
   title: Shader Project 
@@ -80,4 +81,4 @@ detail:
 ---
 <hr/>
 
-{% include gallery title="Detail" id="detail" desc="This is a shader project." %}
+{% include custom/gallery title="Detail" id="detail" desc="This is a shader project." %}

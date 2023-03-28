@@ -5,6 +5,7 @@ image: assets/image-sample.png
 alt: Graphics Project
 tools: C++ | OpenGL | GLSL
 asset-base: /assets/programming/graphics/
+tags: graphics
 
 caption:
   title: Graphics Project

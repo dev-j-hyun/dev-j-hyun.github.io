@@ -1,0 +1,8 @@
+{% assign selected-tag = "none" %}
+
+<div style="margin-bottom: 3%;" >
+    {% for tag in site.data.sitetext.tags %}
+    <input type="checkbox" class="btn-check" id="{{ tag.name }}" autocomplete="off">
+    <label class="btn btn-primary" for="{{ tag.name }}">#{{ tag.name }}</label>
+    {% endfor %}
+</div>

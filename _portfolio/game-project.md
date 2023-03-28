@@ -5,6 +5,7 @@ image: assets/image-sample.png
 alt: Game Project
 tools: OpenGL | C++ | C# (Unity)
 asset-base: /assets/programming/game/
+tags: graphics team-project
 
 caption:
   title: Game Project
@@ -40,5 +41,5 @@ images_wbh:
     desc: clear scene
 ---
 <hr/>
-{% include gallery title="Royal Staright Flush" id="images_rsf" desc="3D FPS Game with Unity engine" %}
-{% include gallery title="Way Back Home" id="images_wbh" desc="2D Top-Down puzzle game with custom engine" %}
+{% include custom/gallery title="Royal Staright Flush" id="images_rsf" desc="3D FPS Game with Unity engine" %}
+{% include custom/gallery title="Way Back Home" id="images_wbh" desc="2D Top-Down puzzle game with custom engine" %}

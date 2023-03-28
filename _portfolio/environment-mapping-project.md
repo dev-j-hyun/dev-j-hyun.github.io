@@ -5,6 +5,7 @@ image: assets/image-sample.png
 alt: Environment Mapping Project
 tools: C++ | OpenGL | GLSL
 asset-base: /assets/programming/reflection/
+tag: graphics
 
 caption:
   title: Environment Mapping Project
@@ -54,4 +55,4 @@ detail:
 ---
 <hr/>
 
-{% include gallery title="Detail" id="detail" desc="This is a environment mapping project." %}
+{% include custom/gallery title="Detail" id="detail" desc="This is a environment mapping project." %}

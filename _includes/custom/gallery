@@ -1,9 +1,9 @@
 <!-- title + desc + id (image-path | alt | title | desc) -->
 
 {% if include.id %}
-  {% assign list = page.[include.id] %}
+  {% assign gallery-list = page.[include.id] %}
 {% else %}
-  {% assign list = page.detail %}
+  {% assign gallery-list = page.detail %}
 {% endif %}
 
 <div>
@@ -12,7 +12,7 @@
         <p class="text-secondary">{{ include.desc }}</p>
     {% endif %}
     <div class="row">
-        {% for node in list %}
+        {% for node in gallery-list %}
         <div class="col-6 col-md-4">
             <a href="{{ node.image-path }}"><img class="img-fluid d-block mx-auto" src="{{ page.asset-base }}{{ node.image-path }}" alt="{{ node.alt }}" title="{{ node.alt }}"/></a>
             {% if node.desc %}

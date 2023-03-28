@@ -5,6 +5,7 @@ image: assets/image-sample.png
 alt: AI Project
 tools: C++ | C# (Unity)
 asset-base: /assets/programming/ai/
+tags: ai
 
 caption:
   title: AI Project
@@ -33,4 +34,4 @@ images_astar:
 ---
 
 <hr/>
-{% include gallery title="Path Finding" id="images_astar" desc="This is A star pathfinding" %}
+{% include custom/gallery title="Path Finding" id="images_astar" desc="This is A star pathfinding" %}

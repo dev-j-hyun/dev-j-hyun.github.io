@@ -5,6 +5,7 @@ image: assets/image-sample.png
 alt: Graphigs Engine
 tools: C++ | OpenGL | GLSL | ImGui | FBXSDK
 asset-base: /assets/programming/grapigs/
+tags: graphics team-project
 
 caption:
   title: Grapigs Engine

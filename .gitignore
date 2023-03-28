@@ -10,3 +10,4 @@ _site/
 
 Gemfile.lock
 *.mp4
+.vscode/

@@ -5,6 +5,7 @@ image: assets/image-sample.png
 alt: 3D Modeling
 tools: Maya | Blender
 asset-base: /assets/art/
+tags: art
 
 caption:
   title: 3D Modeling
@@ -57,5 +58,5 @@ images_blender:
 ---
 
 <hr/>
-{% include gallery title="Maya" id="images_maya" desc="These are created using Blender" %}
-{% include gallery title="Blender" id="images_blender" desc="These are created using Maya" %}
+{% include custom/gallery title="Maya" id="images_maya" desc="These are created using Blender" %}
+{% include custom/gallery title="Blender" id="images_blender" desc="These are created using Maya" %}

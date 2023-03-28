@@ -16,8 +16,7 @@ header:
   buttonlink: "#portfolio"
 
 portfolio:
-  title: "Portfolio"
-  text: "Academic Projects"
+  title: "Projects"
   section: portfolio
   closebutton: "Close Project"
 
@@ -33,7 +32,15 @@ team:
       social: #Find icons: https://fontawesome.com/v4/icons/
         - url: "mailto: dev.j.hyun@gmail.com"
           icon: fa fa-envelope
-        - url: linkedin.com/in/jina-hyun
+        - url: "https://www.linkedin.com/in/jina-hyun/"
           icon: fab fa-linkedin-in
         - url: "https://www.youtube.com/channel/UCzPsPE4UhHOf97gppGSG3-g"
           icon: fa fa-play
+
+tags: 
+  - name: art
+  - name: graphics
+  - name: ai
+  - name: math
+  - name: team-project
+  - name: personal-project
