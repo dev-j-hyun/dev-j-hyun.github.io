@@ -17,7 +17,7 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "https://dev-j-hyun.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Jina's 
+title      : Software Engineer
 email      : dev.j.hyun@gmail.com
 description: "Portfolio website"
 author     : Jina Hyun

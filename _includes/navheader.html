@@ -47,6 +47,11 @@
 </nav>
 <!-- End Navigation -->
 
+<style>
+    #color-black {
+        background-color: rgba(0, 0, 0, 0.138);
+    }
+</style>
 <!-- Header -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <header class="masthead">
@@ -72,10 +77,10 @@
     <div class="container">
         <div class="intro-text">
             {%- if site.data.sitetext.header.title -%}
-            <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
+            <div class="intro-lead-in" id="color-black">{{ site.data.sitetext.header.title | markdownify }}</div>
             {%- endif -%}
             {%- if site.data.sitetext.header.text -%}
-            <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
+            <div class="intro-heading text-uppercase" id="color-black">{{ site.data.sitetext.header.text | markdownify }}</div>
             {%- endif -%}
             {%- if site.data.sitetext.header.button -%}
             <a class="btn btn-primary btn-xl text-uppercase js-scroll"

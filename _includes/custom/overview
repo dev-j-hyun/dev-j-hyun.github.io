@@ -3,11 +3,8 @@
     <div class="embed-responsive embed-responsive-4by3" >
         <iframe src="{{ project.video.url }}" alt="{{ project.alt }}" title="{{ project.video.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-    
     <dl>
-        {% for node in project.video.detail %}
-        <dt>{{ node.title }}</dt>
-        <dd>{{ node.desc }}</dd>
-        {% endfor %}
+        <dt><h4>{{ project.video.detail.title }}</h4></dt>
+        <dd>{{ project.video.detail.desc }}</dd>
     </dl>
 </div>

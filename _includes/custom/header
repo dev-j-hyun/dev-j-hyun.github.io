@@ -2,22 +2,23 @@
 <h2 class="text-uppercase">{{ project.title }}</h2>
 <hr/>
 
-<!--Tools-->
-<div class="text-info"> {{ project.tools }} </div>
-
 <!--Role-->
-<div class="item-intro text-muted">{{ project.role }}</div>
+<div class="item-intro text-muted"><h4>{{ project.role }}</h4></div>
+
+<!--Tools-->
+<div>
+    {% for tool in project.categories %}
+    <button type="button" class="btn btn-sm btn-success" disabled># {{ tool }}</button>
+    {% endfor %}
+</div>
 
 <!--Tag-->
-<div>
+<div style="margin-top: 5px">
 {% for tag in project.tags %}
-    <button type="button" class="btn btn-sm btn-info">#{{ tag }}</button>
+    <button type="button" class="btn btn-sm btn-info" disabled># {{ tag }}</button>
 {% endfor %}
 </div>
 
-<!--Link-->
-<div class="text-info"> Title Link: <a href="#{{ project.title }}.overview">#Overview</a> | <a href="#{{ project.title }}.detail">#Detail</a> </div>
-  
 <!--Video-->
 <!--
 <div class="embed-responsive embed-responsive-4by3">

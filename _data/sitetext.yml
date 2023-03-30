@@ -11,7 +11,7 @@
 # -----------------
 header:
   title: Hello, I am
-  text: JINA HYUN
+  text: Jina Hyun
   button: View Projects
   buttonlink: "#portfolio"
 
@@ -22,7 +22,7 @@ portfolio:
 
 team:
   title: "About Me"
-  text: "I am intereseted in computer graphics, tools, and animation!"
+  text: "I am a software engineer specializing in graphics, engine, and tools programming.<br>Mostly, I worked as an graphics programmer and gameplay programmer.<br> Besides programming, I also interested in 3d art!"
   subtext: (Expected Graduation 04/2023) <br> *BS in Computer Science in Real-Time Interactive Simulation* <br> DigiPen Insititute of Technology
   section: team
   people:
@@ -37,10 +37,11 @@ team:
         - url: "https://www.youtube.com/channel/UCzPsPE4UhHOf97gppGSG3-g"
           icon: fa fa-play
 
-tags: 
+all-tags: 
   - name: art
   - name: graphics
   - name: ai
   - name: math
+  - name: game
   - name: team-project
   - name: personal-project

@@ -1,5 +1,0 @@
-<figure>
-    <h5 class="text-start">{{ include.caption }}</h5>
-    <img class="img-fluid d-block mx-auto" src="{{ include.image-path }}" alt="{{ include.alt }}"/>
-    <figcaption>{{ include.caption }}</figcaption>
-</figure>

@@ -3,7 +3,7 @@ title: Graphics Project
 role: Graphics Programmer
 image: assets/image-sample.png
 alt: Graphics Project
-tools: C++ | OpenGL | GLSL
+categories: C++ OpenGL GLSL
 asset-base: /assets/programming/graphics/
 tags: graphics
 
@@ -14,13 +14,23 @@ caption:
   
 video:
   title: Video
-  url: https://www.youtube.com/embed/REPLACE-WITH-CODE
+  url: https://www.youtube.com/embed/bF_bET01fDI
   detail:
-    - title: Graphics
-      desc: Develop custom obj file loader to render model and apply Blinn-Phong lighting, multiple lighting with point light, directional light, spotlight, deferred shading. Detect collision between AABB, sphere, ray, triangle, plane, and point and generate BVH when loading models. Save and load scene data including lighting information.
+    title: Graphics
+    desc: Developed graphics engine with deferred shading and BVH.
 
 detail:
-  - image-path: 
-    alt: 
-    desc: 
+  - image-path: deferred.png
+    alt: deferred shading
+    desc: deferred shading and multiple lights
+  - image-path: bvh.png
+    alt: bvh
+    desc: BVH construction
+  - image-path: collision.png
+    alt: collision detection
+    desc: collision detection
 ---
+
+{% include custom/section-header title="Description" %}
+{% include custom/gallery id="detail" %}
+Develop custom obj file loader to render model and apply Blinn-Phong lighting, multiple lighting with point light, directional light, spotlight, deferred shading. Detect collision between AABB, sphere, ray, triangle, plane, and point and generate BVH when loading models. Save and load scene data including lighting information.

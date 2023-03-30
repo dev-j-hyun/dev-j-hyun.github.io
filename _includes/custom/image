@@ -1,0 +1,4 @@
+<figure>
+    <img class="img-fluid d-block mx-auto" src="{{ page.asset-base }}{{ include.image-path }}" alt="{{ include.alt }}" width="80%" height="80%"/>
+    <figcaption class="text-muted" style="margin-top: -15px;">{{ include.desc }}</figcaption>
+</figure>

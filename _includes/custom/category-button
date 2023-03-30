@@ -1,8 +1,18 @@
-{% assign selected-tag = "none" %}
+<script>
+    var checkedTags = [];
+    function onClicked(name) {
+        checkedTags.push(name);
+       // alert(name);
+    }
+</script>
 
-<div style="margin-bottom: 3%;" >
-    {% for tag in site.data.sitetext.tags %}
-    <input type="checkbox" class="btn-check" id="{{ tag.name }}" autocomplete="off">
-    <label class="btn btn-primary" for="{{ tag.name }}">#{{ tag.name }}</label>
+<div style="margin-bottom: 3%;" class="all-tags">
+    {% for tag in site.data.sitetext.all-tags %}
+        <input type="checkbox" class="btn-check" id="{{ tag.name }}" autocomplete="off" onclick="onClicked('{{ tag.name }}')">
+        <label class="btn btn-primary" for="{{ tag.name }}">#{{ tag.name }}</label>
     {% endfor %}
 </div>
+
+{% for tag in site.data.sitetext.all-tags %}
+{{tag}}
+{% endfor %}

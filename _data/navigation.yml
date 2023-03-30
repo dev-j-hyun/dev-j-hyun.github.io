@@ -10,9 +10,9 @@
 nav:
   - title: "Home"
     section: home
-  - title: "Portfolio"
-    section: portfolio
   - title: "About"
     section: team
+  - title: "Portfolio"
+    section: portfolio
 #  - title: "Theme Source"
 #    url: https://github.com/raviriley/agency-jekyll-theme/

@@ -3,7 +3,7 @@ title: 3D Modeling
 role: Artist
 image: assets/image-sample.png
 alt: 3D Modeling
-tools: Maya | Blender
+categories: Maya Blender
 asset-base: /assets/art/
 tags: art
 
@@ -16,10 +16,8 @@ video:
   title: Video
   url: https://www.youtube.com/embed/WZn0fssi-fw
   detail:
-    - title: 3D Modeling
-      desc: Create low-poly objects using Maya and Blender
-    - title: Animation
-      desc: Create a character and make multiple actions for the game.      
+    title: "Game objects modeling"
+    desc: "These are scenes made by Maya 2022 and Blender 3.3.0. <br> The Unity Engine was used to demonstrate animations for card soldiers."
 
 images_maya:
   - image-path: maya/barrel.jpg
@@ -55,8 +53,15 @@ images_blender:
   - image-path: blender/card.png
     alt: card soliders
     desc: card soliders
+
+#  {% include custom/image image-path="REPLACE" alt="REPLACE" desc="REPLACE" %}  -->
+#  {% include custom/gallery id="REPLACE" %} -->
 ---
 
+
 <hr/>
-{% include custom/gallery title="Maya" id="images_maya" desc="These are created using Blender" %}
-{% include custom/gallery title="Blender" id="images_blender" desc="These are created using Maya" %}
+
+{% include custom/section-header title="Maya" %}
+{% include custom/gallery title="Maya" id="images_maya" desc="These were created using Maya 2022" %}
+{% include custom/section-header title="Blender" %}
+{% include custom/gallery title="Blender" id="images_blender" desc="These were created using Blender 3.3.0" %}
