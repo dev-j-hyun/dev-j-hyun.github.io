@@ -7,6 +7,8 @@ categories: C++ OpenGL GLSL
 asset-base: /assets/programming/reflection/
 tags: graphics
 
+priority : 5
+
 caption:
   title: Environment Mapping Project
   subtitle: Skybox <br> Reflection & Refraction

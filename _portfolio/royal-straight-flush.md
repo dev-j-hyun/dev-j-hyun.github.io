@@ -7,6 +7,8 @@ categories: Unity C# Blender
 asset-base: /assets/programming/royal-straight-flush/
 tags: graphics team-project
 
+priority : 6
+
 caption:
   title: Royal Straight Flush
   subtitle: FPS Game with Unity

@@ -7,6 +7,8 @@ categories: C++ JUCE Python Jupyter-Notebook
 asset-base: /assets/programming/math/
 tags: math
 
+priority : 8
+
 caption:
   title: Math Project
   subtitle: Curve <br> Data Science

@@ -12,7 +12,8 @@
       </div>
     </div>
     <div class="row">
-      {% for project in site.portfolio %}
+      {% assign posts = site.portfolio | sort : 'priority' %}
+      {% for project in posts %}
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
           <div class="portfolio-hover">
@@ -25,6 +26,9 @@
         <div class="portfolio-caption">
           <h4>{{ project.caption.title }}</h4>
           <p class="text-muted">{{ project.caption.subtitle }}</p>
+          {% for tag in project.tags  %}
+          <button type="button" class="btn btn-sm" disabled># {{ tag }}</button>
+          {% endfor %}
         </div>
       </div>
       {% endfor %}

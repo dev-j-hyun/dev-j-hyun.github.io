@@ -7,6 +7,8 @@ categories: C++ Unity C#
 asset-base: /assets/programming/ai/
 tags: ai
 
+priority : 9
+
 caption:
   title: AI Project
   subtitle: Path Finding <br> Steering Behavior
