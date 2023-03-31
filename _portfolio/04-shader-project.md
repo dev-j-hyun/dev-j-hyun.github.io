@@ -7,8 +7,6 @@ categories: C++ OpenGL GLSL RapidJSON
 asset-base: /assets/programming/tessellation/
 tags: graphics personal-project
 
-priority : 4
-
 caption:
   title: Shader Project 
   subtitle: Silhouette <br> Grass

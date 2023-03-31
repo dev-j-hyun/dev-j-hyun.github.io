@@ -7,8 +7,6 @@ categories: C++ OpenGL GLSL ImGui FBXSDK
 asset-base: /assets/programming/grapigs/
 tags: graphics team-project
 
-priority : 1
-
 caption:
   title: Grapigs Engine
   subtitle: Engine & Tools <br> Shader Effects

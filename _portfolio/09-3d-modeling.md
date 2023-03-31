@@ -7,8 +7,6 @@ categories: Maya Blender
 asset-base: /assets/art/
 tags: art
 
-priority : 10
-
 caption:
   title: 3D Modeling
   subtitle: Game Object <br> Character Animation

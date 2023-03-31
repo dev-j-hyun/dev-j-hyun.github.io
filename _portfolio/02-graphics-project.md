@@ -7,8 +7,6 @@ categories: C++ OpenGL GLSL
 asset-base: /assets/programming/graphics/
 tags: graphics
 
-priority : 2
-
 caption:
   title: Graphics Project
   subtitle: Point/Directional/Spotlight <br> Deferred Shading <br> Bounding Volumes & BVH

@@ -7,8 +7,6 @@ categories: C++ OpenGL GLSL
 asset-base: /assets/programming/animation/
 tags: graphics
 
-priority : 3
-
 caption:
   title: Animation Project
   subtitle: Skeletal Animation <br> Motion along a Path <br> Inverse Kinematics <br> Physically-based Simulation

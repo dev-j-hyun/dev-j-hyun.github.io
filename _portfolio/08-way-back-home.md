@@ -7,8 +7,6 @@ categories: OpenGL C++
 asset-base: /assets/programming/way-back-home/
 tags: graphics team-project
 
-priority : 7
-
 caption:
   title: Way Back Home
   subtitle: 2D Top-Down Game with Custom Engine

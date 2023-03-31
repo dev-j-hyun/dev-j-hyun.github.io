@@ -5,9 +5,7 @@ image: assets/image-sample.png
 alt: Royal Straight Flush
 categories: Unity C# Blender
 asset-base: /assets/programming/royal-straight-flush/
-tags: graphics team-project
-
-priority : 6
+tags: gameplay team-project
 
 caption:
   title: Royal Straight Flush
